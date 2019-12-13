@@ -398,8 +398,8 @@ typedef NS_ENUM(NSInteger, PSWebSocketDriverState) {
     }
     
     // write data to delegate
+    [header appendData:payload];
     [_delegate driver:self write:header];
-    [_delegate driver:self write:payload];
 }
 
 #pragma mark - Reading
