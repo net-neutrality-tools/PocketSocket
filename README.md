@@ -1,7 +1,7 @@
 PocketSocket
 ============
 
-Objective-C websocket library for building things that work in realtime on iOS and OS X.
+This is a forked copy of PocketSocket designed to work with the BEREC nntool ias modules.
 
 ### Features
 
